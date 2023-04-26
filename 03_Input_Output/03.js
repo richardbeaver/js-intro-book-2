@@ -11,7 +11,6 @@ In 30 years, you will be 52 years old.
 In 40 years, you will be 62 years old.
 */
 
-/* eslint import/no-extraneous-dependencies: "off" */
 const rlSync = require('readline-sync');
 
 const age = parseInt(rlSync.question('How old are you? '), 10);

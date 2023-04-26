@@ -8,7 +8,6 @@ What is your last name? Roberts
 Hello, Sue Roberts!
 */
 
-/* eslint import/no-extraneous-dependencies: "off" */
 const rlSync = require('readline-sync');
 
 const firstName = rlSync.question('What is your first name? ');
